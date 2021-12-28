@@ -1,0 +1,7 @@
+notebook
+jupyterhub
+jupyterlab
+autopep8
+jupyter_contrib_nbextensions
+jupyter-nbextensions-configurator
+flake8
