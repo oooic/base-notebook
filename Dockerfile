@@ -13,6 +13,8 @@ COPY --from=builder /usr/local/lib/python3.10/site-packages /usr/local/lib/pytho
 COPY --from=builder /usr/local/bin/jupyter /usr/local/bin/jupyter 
 COPY --from=builder /usr/local/bin/jupyter-notebook /usr/local/bin/jupyter-notebook
 COPY --from=builder /usr/local/bin/jupyter-lab /usr/local/bin/jupyter-lab
+COPY --from=builder /usr/local/bin/jupyter-contrib /usr/local/bin/jupyter-contrib
+
 ARG PY_USER="pyusr"
 ARG PY_UID="1000"
 ARG PY_GID="100"
